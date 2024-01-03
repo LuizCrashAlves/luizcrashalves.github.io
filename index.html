@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Landing page de Portifólio mostrando um pouco do meu trabalho!">
+    <meta property="og:locate" content="pt-br">
+    <meta property="og:url" content="http://127.0.0.1:5500/HTML/">
+    <title>Luiz Alves Portifólio</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="icon" href="/imagens/luizalves.ico" alt="icone" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/imagens/luizalves-menor.png" alt="icone" srcset="/imagens/luizalves.png 769w" />
+        <nav>
+            <ul>
+                <li><a href="#sobre" style="font-family: 'Roboto Condensed';">Sobre</a></li>
+                <li><a href="#projetos" style="font-family: 'Roboto Condensed';">Projetos</a></li>
+                <li><a href="#contato" style="font-family: 'Roboto Condensed';">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <div>
+                <h1 class="titulo1" style="font-family: 'Roboto Condensed';">Olá, eu sou<br> Luiz Alves <br></h1>
+                <p class="texto1" style="font-family: 'Roboto Condensed';"><strong>Sou dedicado a transformar ideias em experiências digitais incríveis. Se você está procurando um desenvolvedor comprometido, inovador e apaixonado pelo que faz, você está no lugar certo. Minha paixão pela criação vai além do código. Estou constantemente inspirado pela harmonia entre design e funcionalidade, buscando aprimorar minhas habilidades e permanecer atualizado com as últimas tendências tecnológicas.</strong></p>
+            </div>
+            <aside><img class="image" src="/imagens/desenvolvedor-web.png" alt="desenvolvedor-web"></img></aside>
+        </section>
+        <section id="projetos">
+            <h2 class="titulo2" style="font-family: 'Roboto Condensed';">O que eu já fiz</h2>
+            <div class="imageprojeto">
+                <a class="link" href="http://127.0.0.1:5501/html/exercicio.html"><img class="img" src="/imagens/page1.png" alt="demonstração da página 1" srcset="/imagens/page1maior.png 1024w"/></a>
+                <a class="link" href="http://127.0.0.1:5501/html/exercicios.html"><img class="img" src="/imagens/page2.png" alt="demonstração da página 2" srcset="/imagens/page2maior.png 1024w"/></a>
+            </div>
+        </section>
+        <section id="cv">
+            <h2 class="titulo3" style="font-family: 'Roboto Condensed';">Sobre Mim</h2>
+            <p class="texto2" style="font-family: 'Roboto Condensed';"><strong>Estou começando agora como programador, mas tenho total comprometimento em entregar o melhor possível nos trabalhos que surgem no caminho, sou muito fâ de jogos soulslike o que me ajudou a ser determinado a buscar uma evolução, o que me faz querer ser melhor a cada momento que passa, também sou fâ de NFL, e o comprometimento e a mente vencedora dos jogadores da liga é uma inspiração para buscar a vitória todos os dias!</strong></p>
+            <a href="/Pagina/curriculum.docx" download class="botaodownload" style="font-family: 'Roboto Condensed';">Qualificações</a>
+        </section>
+        <section id="contato">
+            <h2 style="font-family: 'Roboto Condensed';">Redes Sociais</h2>
+            <div>
+                <a class="link" href="https://www.facebook.com/luiz.alves.3597789"><img class="img" src="/imagens/facebook.png" /></a>
+                <a class="link" href="https://www.instagram.com/luiz_crash/"><img class="img" src="/imagens/insta.png" /></a>
+                <a class="link" href="https://twitter.com/luizcrash_"><img class="img" src="/imagens/x.png" /></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2 style="font-family: 'Roboto Condensed';">Deixe seu contato</h2>
+        <section id="form">
+            <form action="#" method="post">
+                <label for="name" style="font-family: 'Roboto Condensed';"><strong>Nome:</strong></label>
+                <input type="text" id="name" name="name" required>
+                <label for="email" style="font-family: 'Roboto Condensed';"><strong>Email:</strong></label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone" style="font-family: 'Roboto Condensed';"><strong>Telefone:</strong></label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit" style="font-family: 'Roboto Condensed';"><strong>Enviar</strong></button>
+                <input type="checkbox" id="aceito" required>
+                <label for="aceito" style="font-family: 'Roboto Condensed';"><strong>Aceito os termos e condições</strong></label>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
